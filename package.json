@@ -1,0 +1,29 @@
+{
+  "name": "express-introduction-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-http-basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "debugger": "node --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koya171/Express-introduction-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koya171/Express-introduction-demo/issues"
+  },
+  "homepage": "https://github.com/koya171/Express-introduction-demo#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
